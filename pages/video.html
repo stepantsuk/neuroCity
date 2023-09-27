@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Video</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container container--column">
+        <video id="videoPlayer" width="720" height="440">
+        <source
+          id="webm"
+          src="https:samplelib.com/lib/preview/webm/sample-5s.webm"
+          type="video/webm">
+        </video>
+        <div>
+          <p id="progress">0</p>
+        </div>
+    </div>
+    <script src="../scripts/video.js" defer></script>
+  </body>
+</html>

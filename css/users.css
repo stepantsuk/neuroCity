@@ -1,0 +1,54 @@
+.users {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.users__item {
+  width: 330px;
+}
+
+.users__frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.avatar__pic {
+  height: 100%;
+  width: 100%;
+}
+
+.users__info {
+  text-align: left;
+  border: 1px solid black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__item {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination__item--active {
+  border: 1px solid black;
+}
